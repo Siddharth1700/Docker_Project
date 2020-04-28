@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+        web:
+                image: siddharth6666/web_modified
+                restart: always
+                volumes:
+                        - web_storage:/var/www/html
